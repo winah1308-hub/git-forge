@@ -1,0 +1,14 @@
+{
+  "name": "git-forge",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A standalone GitHub-compatible git forge in pure Node 22 stdlib: smart-HTTP git (clone/push, shallow, tags), REST v3, GraphQL, and MCP, in one process with no dependencies",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  }
+}
